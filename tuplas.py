@@ -1,0 +1,8 @@
+esportes = ("natação", "judô", "futebol")
+print("1. Tupla Original:", esportes)
+lista_esportes = list(esportes)
+print("2. Lista Convertida:", lista_esportes)
+lista_esportes.append("skate")
+print("3. Lista com Novo Esporte:", lista_esportes)
+esportes = tuple(lista_esportes)
+print("4. De volta para Tupla:", esportes)
