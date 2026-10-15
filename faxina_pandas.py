@@ -12,5 +12,6 @@ df["data"] = pd.to_datetime(df["data"], format="%d/%m/%Y")
 df.to_csv("contatos_limpos.csv", index=False)
 print(df)
 
-# Comparação: faxina.py (Semana 5) tem ___ linhas; este código tem 10 linhas.
+# Comparação: faxina.py (Semana 5) tem 39 linhas; faxina_pandas.py tem 13 linhas.
+
 
