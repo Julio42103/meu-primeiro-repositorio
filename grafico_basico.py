@@ -28,5 +28,10 @@ plt.show()
 # Dispersão preço x quantidade:
 # (escreva aqui o que você vê: tem tendência? algum ponto fora do padrão?)
 
+# Dispersão preço x quantidade:
+# Não há relação clara entre preço e quantidade: a maioria dos pedidos
+# tem de 1 a 4 unidades em qualquer faixa de preço.
+# Há 4 outliers com quantidade perto de 40, em preços diferentes,
+# que merecem ser verificados (pedido grande ou erro de dado).
 
 
