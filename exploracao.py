@@ -74,6 +74,8 @@ plt.close()
 #   são de um tipo de cliente ou produto específico.
 
 # Countplot por dia da semana
-# O que vi: o dia com mais pedidos é ... e o com menos é ... .
-# O que faria: ... (ex.: checar se a diferença é grande o bastante para
-#   importar, ou se algum dia tem poucos dados por falta de registros).
+
+# O que vi: os pedidos crescem de sexta a domingo. Domingo tem mais (~150) e
+#   quinta tem menos (~65). Segunda a quinta ficam parecidas, entre 65 e 77.
+# O que faria: checar se isso se repete em todas as semanas do período e se o
+#   canal ou a categoria muda no fim de semana, para planejar estoque e entrega.
